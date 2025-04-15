@@ -1,4 +1,4 @@
-sd = 1.00
+usd = 1.00
 zar = 18.25
 
 print("Welcome to the Currency Converter\n")
