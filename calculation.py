@@ -1,5 +1,5 @@
-usd = 1.00
-zar = 18.25
+import conlib
+
 ask = True
 
 def inputamount():
@@ -18,6 +18,7 @@ def inputamount():
         else:
             print("\nPlease enter a numeric value or enter done to exit!\n")
 
-def calculation(answer):    
+def calculation(answer):
+    zar = conlib.conlibrary()    
     con = float(answer)* zar
     print(f"\nYou have R{round(con, 2)}\n")
