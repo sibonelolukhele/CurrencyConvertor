@@ -1,0 +1,14 @@
+.image{
+    height: 300px;
+    border: 1px solid black;
+    float: right;
+}
+#google{
+    font-size: 30px;
+    background-color: white;
+    transition: font-size .5s, background-color .5s;
+}
+#google:hover{
+    font-size: 40px;
+    background-color: rgb(224, 245, 238);
+}
