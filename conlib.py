@@ -1,9 +1,9 @@
 import requests 
 
 
-def conlibrary():
+def conlibrary(currency1, currency2):
 
-    url = "https://v6.exchangerate-api.com/v6/f78e7e33e4ac22a7c91ae402/pair/USD/ZAR"
+    url = f"https://v6.exchangerate-api.com/v6/f78e7e33e4ac22a7c91ae402/pair/{currency1}/{currency2}"
     req = requests
     res = req.get(url)
     data = res.json()
